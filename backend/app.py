@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 DATABASE_PATH = os.environ.get("DATABASE_PATH", "teams.db")
-ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "SacshamAgrawal")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "abcdefgh28")
+ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "Vikram59")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "5678998765")
 
 # Configure basic auth
 @auth.verify_password
