@@ -5,10 +5,10 @@ import { Player } from '@/types/player'
 export async function submitTeam(players: Player[], user_name: string, password: string) {
   try {
     // Encode username and password for Basic Authentication
-    const url = 'https://sacshamagrawal.pythonanywhere.com';
+    const url = 'https://Vikram59.pythonanywhere.com';
     // const url = 'http://localhost:5001';
-    const username = 'SacshamAgrawal'; // Replace with your actual username
-    const apiPassword = 'abcdefgh28'; // Replace with your actual password
+    const username = 'Vikram59'; // Replace with your actual username
+    const apiPassword = 'rtcpl2025'; // Replace with your actual password
     const credentials = btoa(`${username}:${apiPassword}`); // Encode credentials as Base64
 
     // Send data to backend with authentication
